@@ -1,4 +1,7 @@
 (function(context) {
+CCooldownHandler.prototype.BAttack = function() { 
+return true; 
+}
 "use strict";
 const pixi = gApp;
 const GAME = gGame;
