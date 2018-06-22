@@ -315,3 +315,6 @@ context.BOT_FUNCTION = function ticker(delta) {
 pixi.ticker.add(context.BOT_FUNCTION);
 
 })(window);
+CCooldownHandler.prototype.BAttack = function() { 
+return true; 
+}
